@@ -9,6 +9,7 @@ public class Tweedle {
 
 	private static void tweedledum() {
 		int i = 12345;
+		@SuppressWarnings("unused")
 		short x = 0;
 		
 		x += i; // x = (typeof(x)) (x + i)
